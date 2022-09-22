@@ -1,5 +1,5 @@
-source("../UpdateDelta.R")
-source("../iteration_procedures.R")
+source("../sgaeiv/UpdateDelta.R")
+source("../sgaeiv/iteration_procedures.R")
 library(MASS)
 # library(dummies)
 library(fossil)
