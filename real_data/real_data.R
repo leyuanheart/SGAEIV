@@ -1,6 +1,6 @@
-source("../UpdateDelta.R")
-source("../iteration_ma.R")
-source("../iteration_procedures.R")
+source("../sgaeiv/UpdateDelta.R")
+source("../sgaeiv/iteration_ma.R")
+source("../sgaeiv/iteration_procedures.R")
 
 
 library(parallel)
