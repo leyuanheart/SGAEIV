@@ -1,3 +1,4 @@
+library(car)
 # ====================== Table 1 and Table 2 Start ========================================
 
 ## ============== Example 1 ==================
@@ -293,7 +294,7 @@ scatterplotMatrix(~SBP1+DBP1+Age_cal+BMI_change | grouping, data=nine_dat,
 # ====================== Table 4 Start ========================================
 load('./real_data/real_data.RData')
 
-# 计算系数估计的方差和 P-value
+# 璁＄畻绯绘暟浼拌鐨勬柟宸拰 P-value
 group_index_est <- vector(length = n)
 group_index_est[1:n %in% group_index[[1]]] <- 0
 group_index_est[1:n %in% group_index[[2]]] <- 1
@@ -722,7 +723,7 @@ MeanBeta = function(beta_mat, index) {
 
 alpha = sapply(group_index, MeanBeta, beta_mat = beta_mat)
 
-# 计算系数估计的方差和 P-value
+# 璁＄畻绯绘暟浼拌鐨勬柟宸拰 P-value
 group_index_est <- vector(length = n)
 group_index_est[1:n %in% group_index[[1]]] <- 0
 group_index_est[1:n %in% group_index[[2]]] <- 1
