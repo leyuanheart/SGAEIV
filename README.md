@@ -44,4 +44,4 @@ Note that you still need to set the working directory to the directory of these 
 
 ### Figures and Tables
 
-Set the working directory of **R** to the directory of `figures_tables.R` and run this file to get all figures and tables in this paper and Appendix in the supplementary material.
+Set the working directory of **R** to the directory of `figures_tables.R` and run this file to get all figures and tables in this paper.
