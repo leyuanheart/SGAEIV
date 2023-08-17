@@ -1,6 +1,6 @@
 # Subgroup Analysis in Linear Models with Measurement Error
 
-This is the official implementation of "Subgroup Analysis in Linear Models with Measurement Error" in Canadian Journal of Statistics.
+This is the official implementation of ["Subgroup Analysis in Linear Models with Measurement Error"](https://onlinelibrary.wiley.com/doi/10.1002/cjs.11763) in *Canadian Journal of Statistics*.
 
 ## `sgaeiv` package overview
 
